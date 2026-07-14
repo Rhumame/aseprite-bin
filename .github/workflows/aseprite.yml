@@ -21,7 +21,6 @@ jobs:
         shell: cmd
         run: call build.cmd
         env: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
-        env:
           ASEPRITE_VERSION: ${{ github.event.inputs.version }}
 
       - name: Archive
